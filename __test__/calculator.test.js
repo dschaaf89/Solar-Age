@@ -8,7 +8,7 @@ describe('Calculator', () => {
     person = new Calculator("steve", 18);
     person2 = new Calculator("steve", 77);
     person3 = new Calculator("steve", 100);
-  })
+  });
 
   test('should create a calculator object with name and age', () => {
     expect(person).toEqual(person);
