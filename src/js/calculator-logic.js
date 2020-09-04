@@ -34,5 +34,10 @@ export default class Calculator {
     let lifeExpectancyMars = (Math.floor(yearsLeft / 1.88));
     return lifeExpectancyMars;
   }
+  lifeExpectancyJupiter(age) {
+    let yearsLeft = 72 - age
+    let lifeExpectancyMars = (Math.floor(yearsLeft / 11.86));
+    return lifeExpectancyMars;
+}
 }
 
