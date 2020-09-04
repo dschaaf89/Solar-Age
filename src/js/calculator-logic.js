@@ -20,24 +20,32 @@ export default class Calculator {
     return ageOnJupiter;
   }
   lifeExpectancyMercury(age) {
-    let yearsLeft = 72 - age
-    let lifeExpectancyMercury = (Math.floor(yearsLeft / .24));
-    return lifeExpectancyMercury;
+    if (age < 72) {
+      let yearsLeft = 72 - age;
+      let lifeExpectancyMercury = (Math.floor(yearsLeft / .24));
+      return lifeExpectancyMercury;
+
+    } else {
+      let ageOver = age - 72;
+      let lifeExpectancyMercury = (Math.floor(ageOver / .24));
+      return lifeExpectancyMercury;
+    }
+   
   }
+
   lifeExpectancyVenus(age) {
-    let yearsLeft = 72 - age
+    let yearsLeft = 72 - age;
     let lifeExpectancyVenus = (Math.floor(yearsLeft / .62));
     return lifeExpectancyVenus;
   }
   lifeExpectancyMars(age) {
-    let yearsLeft = 72 - age
+    let yearsLeft = 72 - age;
     let lifeExpectancyMars = (Math.floor(yearsLeft / 1.88));
     return lifeExpectancyMars;
   }
   lifeExpectancyJupiter(age) {
-    let yearsLeft = 72 - age
+    let yearsLeft = 72 - age;
     let lifeExpectancyMars = (Math.floor(yearsLeft / 11.86));
     return lifeExpectancyMars;
+  }
 }
-}
-

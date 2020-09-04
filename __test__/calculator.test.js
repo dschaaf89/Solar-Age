@@ -38,4 +38,7 @@ describe('Calculator', () => {
   test("should calculate how many years beyond life span a person is on Mercury", () => {
     expect(person2.lifeExpectancyMercury(person2.age)).toEqual(20);
   });
+  test("should calculate how many years beyond life span a person is on Venus", () => {
+    expect(person2.lifeExpectancyVenus(person2.age)).toEqual(8);
+  });
 });
