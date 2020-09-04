@@ -10,7 +10,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "Daniel Schaaf, Ophelia Swen, and William Donovan-Seid",
+  "author": "Daniel Schaaf",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",

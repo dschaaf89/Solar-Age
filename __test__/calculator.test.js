@@ -1,12 +1,12 @@
-import { Calculator } from '../src/js/calculator-logic-logic.js';
-
+import Calculator  from '../src/js/calculator-logic.js';
 describe('Calculator', () => {
   let person;
-
+  
   beforeEach(() => {
-    person = new Calculator("steve,18")
-  });
-  test('should create a level one character', () => {
-    expect('should create calculator object with name and age.')
+    person = new Calculator("Rocky","18")
+  })
+
+  test('should create a calculator object with name and age', () => {
+    expect(person).toEqual(person);
   });
 });
