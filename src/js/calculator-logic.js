@@ -3,4 +3,8 @@ export default class Calculator {
     this.name= name;
     this.age= age;
   }
+  ageOnMercury(age){
+    let ageOnMercury= (Math.floor(age/.24));
+    return ageOnMercury;
+  }
 }
