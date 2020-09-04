@@ -34,9 +34,17 @@ export default class Calculator {
   }
 
   lifeExpectancyVenus(age) {
-    let yearsLeft = 72 - age;
-    let lifeExpectancyVenus = (Math.floor(yearsLeft / .62));
-    return lifeExpectancyVenus;
+    if(age <72){
+      let yearsLeft = 72 - age;
+      let lifeExpectancyVenus = (Math.floor(yearsLeft / .62));
+      return lifeExpectancyVenus;
+    }else{
+      let ageOver = age - 72;
+      let lifeExpectancyVenus = (Math.floor(ageOver / .62));
+      return lifeExpectancyVenus;
+    }
+    
+    
   }
   lifeExpectancyMars(age) {
     let yearsLeft = 72 - age;
