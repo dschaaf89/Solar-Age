@@ -5,7 +5,7 @@ describe('Calculator', () => {
 
   beforeEach(() => {
     person = new Calculator("steve", 18);
-    person2 = new Calculator("steve",77);
+    person2 = new Calculator("steve", 77);
   })
 
   test('should create a calculator object with name and age', () => {
@@ -40,5 +40,8 @@ describe('Calculator', () => {
   });
   test("should calculate how many years beyond life span a person is on Venus", () => {
     expect(person2.lifeExpectancyVenus(person2.age)).toEqual(8);
+  });
+  test("should calculate how many years beyond life span a person is on mars", () => {
+    expect(person2.lifeExpectancyVenus(person2.age)).toEqual(2);
   });
 });
