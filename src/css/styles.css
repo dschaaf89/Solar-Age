@@ -19,9 +19,10 @@ h1{text-align: center;}
 }
 .card{ background-color: grey;
   margin: 5%;
-  padding: 5%;
+  padding: 1%;
   box-shadow: 0 8px 16px 0 black;
   border-radius: 5%;
+
 }
 #space{
   display: block;
@@ -30,8 +31,56 @@ h1{text-align: center;}
   border: 50% solid black;
   margin-top: 5%;
   margin-bottom: 5%;
-  box-shadow: 0 8px 16px 0 black;
+  box-shadow: 0 8px 24px 0 silver;
   width: 95%;
+  border-radius: 5%;
+}
+p{
+  font-weight: bolder;
+  text-align: center;
+}
+#marsPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 50% solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 8px 24px 0 silver;
+  width: 25%;
+  border-radius: 5%;
+}
+#jupiterPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 50% solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  box-shadow: 0 8px 24px 0 silver;
+  width: 25%;
+  border-radius: 5%;
+}
+#venusPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 50% solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  box-shadow: 0 8px 24px 0 silver;
+  width: 25%;
+  border-radius: 5%;
+}
+#mercuryPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 50% solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  box-shadow: 0 8px 24px 0 silver;
+  width: 25%;
   border-radius: 5%;
 }
 
