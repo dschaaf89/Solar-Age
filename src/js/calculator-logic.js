@@ -19,4 +19,10 @@ export default class Calculator {
     let ageOnJupiter= (Math.floor(age/11.86));
     return ageOnJupiter;
   }
+  lifeExpectancyMercury(age){
+    let yearsLeft= 72-age
+    let lifeExpectancyMercury= (Math.floor(yearsLeft/.24));
+    return lifeExpectancyMercury;
+  }
 }
+
