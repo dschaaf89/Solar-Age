@@ -9,8 +9,21 @@ function displayResults(x) {
     $("#mercury").text(x.ageOnMercury(x.age) + " years old");
     $("#mercuryLife").text(x.lifeExpectancyMercury(x.age)+" years left in your life.");
     $("#venus").text(x.ageOnVenus(x.age) + " years old");
+    $("#venusLife").text(x.lifeExpectancyVenus(x.age)+" years left in your life.");
     $("#mars").text(x.ageOnMars(x.age) + " years old");
+    $("#marsLife").text(x.lifeExpectancyMars(x.age)+" years left in your life.");
     $("#jupiter").text(x.ageOnJupiter(x.age) + " years old");
+    $("#jupiterLife").text(x.lifeExpectancyJupiter(x.age)+" years left in your life.");
+  } else {
+    $("#personName").text(x.name);
+    $("#mercury").text(x.ageOnMercury(x.age) + " years old");
+    $("#mercuryLife").text(x.lifeExpectancyMercury(x.age)+" years over your life Expectancy.");
+    $("#venus").text(x.ageOnVenus(x.age) + " years old");
+    $("#venusLife").text(x.lifeExpectancyVenus(x.age)+" years over your life Expectancy.");
+    $("#mars").text(x.ageOnMars(x.age) + " years old");
+    $("#marsLife").text(x.lifeExpectancyMars(x.age)+" years over your life Expectancy.");
+    $("#jupiter").text(x.ageOnJupiter(x.age) + " years old");
+    $("#jupiterLife").text(x.lifeExpectancyJupiter(x.age)+" years over your life Expectancy.");
   }
   
 

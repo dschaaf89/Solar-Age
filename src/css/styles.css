@@ -1,3 +1,26 @@
 #results{
   display:none;
 }
+body{
+  background-color: #086788;
+}
+
+h1{text-align: center;}
+    
+.jumbotron{
+  background-color: #e4e4e49d;
+}
+
+.card1{
+  background-color: grey;
+  margin: 5%;
+  padding: 5%;
+  box-shadow: 0 8px 16px 0 black;
+  border-radius: 5%;
+}
+.card{ background-color: grey;
+  margin: 5%;
+  padding: 5%;
+  box-shadow: 0 8px 16px 0 black;
+  border-radius: 5%;}
+
