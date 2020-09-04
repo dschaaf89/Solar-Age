@@ -11,6 +11,7 @@ _this is a project to calculate the solar age of a person depending on what plan
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
+| **Enter the person's age on Earth and make a person object with name and age.** | enter in 18, Steve |object.name = steve, object.age = 18 |
 | **Enter the person's age on Earth and convert it to mercury age.** | enter in 18 | out put is 75 mercury years |
 | **enter in the person's age and convert it to venus years**  |  enter in 18 |29 venus years old |
 | **enter in the person's age and convert it to mars years**  |  enter in 18 |9 mars years old |
