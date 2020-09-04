@@ -31,7 +31,7 @@ h1{text-align: center;}
   border: 50% solid black;
   margin-top: 5%;
   margin-bottom: 5%;
-  box-shadow: 0 8px 24px 0 silver;
+  box-shadow: 0 8px 24px 0 black;
   width: 95%;
   border-radius: 5%;
 }
@@ -46,7 +46,7 @@ p{
   border: 50% solid black;
   margin-top: 5%;
   margin-bottom: 5%;
-  box-shadow: 0 8px 24px 0 silver;
+  box-shadow: 0 8px 24px 0 black;
   width: 100%;
   border-radius: 5%;
 }
@@ -57,7 +57,7 @@ p{
   border: 50% solid black;
   margin-top: 1%;
   margin-bottom: 1%;
-  box-shadow: 0 8px 24px 0 silver;
+  box-shadow: 0 8px 24px 0 black;
   width: 75%;
   border-radius: 5%;
 }
@@ -68,7 +68,7 @@ p{
   border: 50% solid black;
   margin-top: 1%;
   margin-bottom: 1%;
-  box-shadow: 0 8px 24px 0 silver;
+  box-shadow: 0 8px 24px 0 black;
   width: 100%;
   border-radius: 5%;
 }
@@ -87,5 +87,8 @@ p{
   float: left;
   width: 25%;
   padding: 0 10px;
+}
+#reset{
+  margin-left: 23%;
 }
 
