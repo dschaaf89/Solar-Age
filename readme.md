@@ -22,10 +22,12 @@ _this is a project to calculate the solar age of a person depending on what plan
 
 ## Setup/Installation Requirements
 
-* _Clone my repository_
-* _make sure all files are included, the index.html, scripts.js,styles.css, and the bootsrap and jquery files._
-* _run the index.html file_
-* __
+* Clone my repository
+* make sure all files are included, the index.html, scripts.js,styles.css, and the bootsrap and jquery files.
+* install the environment using npm install.
+* run the program using npm run start.
+* fill in the required form to get your answers.
+
 
 
 
