@@ -19,6 +19,9 @@ describe('Calculator', () => {
     expect(person.ageOnMars(person.age)).toEqual(9);
 });
 test("should calculate how old the person's age is in Jupiter years", () => {
-  expect(person.ageOnMars(person.age)).toEqual(1);
+  expect(person.ageOnJupiter(person.age)).toEqual(1);
+});
+test("should calculate how many more years a person who is 18 has left on mercury", () => {
+  expect(person.lifeExpectancyMercury(person.age)).toEqual(225);
 });
 });
