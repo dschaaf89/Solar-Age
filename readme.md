@@ -47,7 +47,7 @@ _if you have questions please email Daniel Schaaf @ daniel.schaaf@outlook.com _
 
 ## Technologies Used
 
-_there were six products used to make the pages. HTML CSS Bootstrap.css Markdown JavaScript jquery 3.5.1_
+_there were six products used to make the pages. HTML CSS Bootstrap.css Markdown JavaScript jquery 3.5.1 it was packed with WebPack 4.39.3 for the enviroment._
 
 ### License
 
