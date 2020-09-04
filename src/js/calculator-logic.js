@@ -11,4 +11,8 @@ export default class Calculator {
     let ageOnVenus= (Math.floor(age/.62));
     return ageOnVenus;
   }
+  ageOnMars(age){
+    let ageOnMars= (Math.floor(age/1.88));
+    return ageOnMars;
+  }
 }

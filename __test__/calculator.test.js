@@ -18,3 +18,4 @@ describe('Calculator', () => {
   test("should calculate how old the person's age is in Mars years", () => {
     expect(person.ageOnMars(person.age)).toEqual(9);
 });
+});
