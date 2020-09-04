@@ -24,5 +24,10 @@ export default class Calculator {
     let lifeExpectancyMercury= (Math.floor(yearsLeft/.24));
     return lifeExpectancyMercury;
   }
+  lifeExpectancyVenus(age){
+    let yearsLeft= 72-age
+    let lifeExpectancyVenus= (Math.floor(yearsLeft/.62));
+    return lifeExpectancyVenus;
+  }
 }
 
