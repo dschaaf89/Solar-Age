@@ -42,6 +42,6 @@ describe('Calculator', () => {
     expect(person2.lifeExpectancyVenus(person2.age)).toEqual(8);
   });
   test("should calculate how many years beyond life span a person is on mars", () => {
-    expect(person2.lifeExpectancyVenus(person2.age)).toEqual(2);
+    expect(person2.lifeExpectancyMars(person2.age)).toEqual(2);
   });
 });
