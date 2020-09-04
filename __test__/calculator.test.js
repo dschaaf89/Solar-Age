@@ -2,10 +2,12 @@ import Calculator from '../src/js/calculator-logic.js';
 describe('Calculator', () => {
   let person;
   let person2;
+  let person3;
 
   beforeEach(() => {
     person = new Calculator("steve", 18);
     person2 = new Calculator("steve", 77);
+    person3 = new Calculator("steve", 100);
   })
 
   test('should create a calculator object with name and age', () => {
@@ -46,5 +48,8 @@ describe('Calculator', () => {
   });
   test("should calculate how many years beyond life span a person is on Jupiter", () => {
     expect(person2.lifeExpectancyJupiter(person2.age)).toEqual(.4215851602023609);
+  });
+  test("should calculate how many years beyond life span a person is on Jupiter amd if person is over 1 year of life expectancy it rounds the number", () => {
+    expect(person3.lifeExpectancyJupiter(person3.age)).toEqual(2);
   });
 });
