@@ -12,4 +12,7 @@ describe('Calculator', () => {
   test("should calculate how old the person's age is in mercury years", () => {
     expect(person.ageOnMercury(person.age)).toEqual(75);
   });
+  test("should calculate how old the person's age is in venus years", () => {
+    expect(person.ageOnVenus(person.age)).toEqual(29);
+  });
 });
