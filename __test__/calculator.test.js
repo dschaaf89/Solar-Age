@@ -27,7 +27,7 @@ test("should calculate how many more years a person who is 18 has left on mercur
 test("should calculate how many more years a person who is 18 has left on Venus", () => {
   expect(person.lifeExpectancyVenus(person.age)).toEqual(87);
 });
-test("should calculate how many more years a person who is 18 has left on Venus", () => {
+test("should calculate how many more years a person who is 18 has left on Mars", () => {
   expect(person.lifeExpectancyMars(person.age)).toEqual(28);
 });
 });
