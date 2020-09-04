@@ -10,7 +10,6 @@ h1{text-align: center;}
 .jumbotron{
   background-color: #e4e4e49d;
 }
-
 .card1{
   background-color: grey;
   margin: 5%;
@@ -22,5 +21,17 @@ h1{text-align: center;}
   margin: 5%;
   padding: 5%;
   box-shadow: 0 8px 16px 0 black;
-  border-radius: 5%;}
+  border-radius: 5%;
+}
+#space{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 50% solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 8px 16px 0 black;
+  width: 95%;
+  border-radius: 5%;
+}
 
