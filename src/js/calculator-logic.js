@@ -7,4 +7,8 @@ export default class Calculator {
     let ageOnMercury= (Math.floor(age/.24));
     return ageOnMercury;
   }
+  ageOnVenus(age){
+    let ageOnVenus= (Math.floor(age/.62));
+    return ageOnVenus;
+  }
 }
