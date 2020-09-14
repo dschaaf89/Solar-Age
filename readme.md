@@ -16,8 +16,8 @@ _this is a project to calculate the solar age of a person depending on what plan
 | **enter in the person's age and convert it to venus years**  |  enter in 18 |29 venus years old |
 | **enter in the person's age and convert it to mars years**  |  enter in 18 |9 mars years old |
 | **enter in the person's age and convert it to Jupiter years**  |  enter in 18 | 1 Jupiter years old |
-| **enter in the person's age and determine their average life expectancy on each planet depending on average earth life expectancy of 72 years**  |  enter in 18 |Your expected to live for this many years on... |
-| **enter in the person's age and if they have already surpassed their life expectancy, return the numbers of years over there expectancy they are**  |  enter in 18 |  |
+| **enter in the person's age and determine their average life expectancy on each planet depending on average earth life expectancy of 72 years**  |  enter in 18 |Your expected to live for this many years on 225 Mercurian years left in your life, 87 Venusian years left in your life, 28 Martian years left in your life,4 Jovien years left in your life.|
+| **enter in the person's age and if they have already surpassed their life expectancy, return the numbers of years over there expectancy they are**  |  enter in 88 |  66 Mercurian years over your life Expectancy,25 Venusian years over your life Expectancy, 8 Martian years over your life Expectancy, 1 Jovien years over your life Expectancy.|
 
 
 ## Setup/Installation Requirements
